@@ -6,7 +6,7 @@
 }
 #course-title, footer {
   display: block;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   background-color: #513B56;
   color: #fff;
@@ -17,14 +17,14 @@ header nav {
   justify-content: space-around;
   align-items: center;
   background-color: #525174;
-  font-size: 20px;
-  
 }
-header a {
+header a{
   color: #fff;  
   text-decoration: none;
   padding: 5px;
-  
+}
+header {
+  font-size: 25px;
 }
 nav a:hover {
   text-decoration: underline;
@@ -72,13 +72,14 @@ h2 {
   border-radius: 5px;
   
 }
-h3 {
+.country-name {
   margin-left: 150px;
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 20px;
+  font-weight: 700;
 }
-h3::after {
+.country-name::after {
   content: "";
   position: absolute;
   border-bottom: 1px solid rgb(168, 162, 162);
@@ -101,6 +102,7 @@ h3::after {
   margin-right: 30px;
   font-family: "Baskervville";
   line-height: 25px;
+  
 }
 .country-content figcaption {
   text-align: center;
@@ -109,13 +111,14 @@ h3::after {
 footer {
   margin-top: 20px;
 }
-h4 {
+h3 {
   text-align: center;
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 20px;
+  font-size: 16px;
 }
-h4::after {
+h3::after {
   content: "";
   position: absolute;
   border-bottom: 1px solid rgb(168, 162, 162);
@@ -123,7 +126,7 @@ h4::after {
   right: 20px;
   bottom: 0;
 }
-.dev-section {
+li {
   margin-left: 30px;
 }
 a {
