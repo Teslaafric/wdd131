@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigeria</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - About Nigeria - Solomon Obi">
+      <meta name="author" content="WDD 131 - Dynamic Web Fundamentals - Solomon Obi">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer>
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Nigeria
+      </h1>
+    </header>
+    <main>
+      <picture>
+        <source srcset="images/hero-large3.webp" media="(min-width: 1500px)">
+        <source srcset="images/hero-medium2.webp" media="(min-width: 500px)">
+        <img src="images/hero-small1.webp" alt="Nigerian Map">
+      </picture>
+     
+      <section class="data-container">
+        <h2>
+          Data
+        </h2>
+        <p><strong>Area:</strong><span>923,769 sq km</span></p>
+        <p><strong>Population:</strong><span>236,747,130</span></p>
+        <p><strong>Capital:</strong><span>Abuja</span></p>
+        <p><strong>Languages:</strong><span>English, Igbo, Hausa, Yoruba</span></p>
+        <p><strong>Currency:</strong><span>Naira</span></p>
+        <p><strong>Time Zone:</strong><span>UTC+01:00</span></p>
+        <p><strong>Code:</strong><span>+234</span></p>
+        <p><strong>TLD:</strong><span>.ng</span></p>
+      </section>
+      <section class="weather-container">
+        <h2>
+          Weather
+        </h2>
+        <p><strong>Temperature:</strong><span>24℃</span></p>
+        <p><strong>Condition:</strong><span>Clear Night</span></p>
+        <p><strong>Wind:</strong><span>5 km/h</span></p>
+        <p><strong>Humidity:</strong><span>71%</span></p>
+        <p><strong>Wind Chill:</strong><span id="wind-js"></span></p>
+      </section>
+    </main>
+    <footer>
+      <p>&#169;<span id="currentyear-js"></span> 🐧 Solomon Obi 🐧 Nigeria</p>
+      <p id="lastmodified-js"></p>
+    </footer>
+  </body>
+</html>

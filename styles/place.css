@@ -1,0 +1,98 @@
+:root {
+  --header-color: green;
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --heading-font: "Roboto";
+  --text-font: "Baskervville";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  position: relative;
+}
+header h1 {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  color: var(--primary-color);
+  background-color: var(--header-color);
+  text-align: center;
+  padding: 1rem;
+}
+picture img {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  padding: 1rem;
+  font-family: var(--heading-font);
+  font-size: 1.5rem;
+}
+section {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 1rem;
+  border: 1px solid rgb(242, 236, 236);
+}
+footer {
+  text-align: center;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  background-color: var(--header-color);
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+img {
+  width: 100%;
+}
+.data-container p,
+.weather-container p {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.data-container strong,
+.weather-container strong {
+  text-align: right;
+  padding: 5px;
+
+}
+.data-container p span,
+.weather-container p span {
+  text-align: left;
+  padding: 5px;
+}
+.data-container,
+.weather-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 700px) {
+  .data-container,
+  .weather-container {
+    position: absolute;
+    top: 120px;
+    width: 300px;
+  }
+   .data-container {
+    left: 30px;
+  }
+  .weather-container {
+    right: 30px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .weather-container h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    background: url("../images/weather.svg") no-repeat center;
+    background-size: contain;
+  }
+}
