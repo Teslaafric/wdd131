@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Cards</title>
+  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Filtering Temple- Solomon Obi">
+    <meta name="author" content="WDD 131 - Dynamic Web Fundamentals - Solomon Obi">
+  <link rel="stylesheet" href="styles/filtered-temples.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="scripts/filtered-temples.js" defer>
+  </script>
+</head>
+<body>
+  <header> 
+    <p>Temple Album</p>
+    <button id="menu">☰</button>
+    <nav class="navigation">
+      <a href="#" class="nav-link active" data-filter="home">
+        Home
+      </a>
+      <a href="#" class="nav-link"  data-filter="old">
+        Old
+      </a>
+      <a href="#" class="nav-link"  data-filter="new">
+        New
+      </a>
+        <a href="#" class="nav-link"  data-filter="large">
+          Large
+        </a>
+        <a href="#" class="nav-link"  data-filter="small">
+          Small
+        </a>
+    </nav>
+  </header>
+  <main>
+    <h1>
+			Home
+    </h1>
+    <div class="temple-container-js">
+    </div>
+   	
+  </main>
+  <footer>
+		<p>&#169; <span id="copyyear-js"></span> 🐧 Solomon Obi 🐧 Nigeria</p>
+		<span id="currentyear-js"></span>
+  </footer>
+</body>
+</html>

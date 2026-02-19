@@ -1,0 +1,22 @@
+img {
+  width: 100%;
+  display: block;
+  background: #000;
+  margin: 10px;
+  opacity: 0;
+  animation: fade 2s forwards;
+}
+main,
+footer{
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+@keyframes fade  {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
