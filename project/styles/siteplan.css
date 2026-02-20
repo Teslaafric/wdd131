@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #F4F4F4;   
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+header,
+footer {
+  background-color: #0A192F;  
+  color: #FFFFFF;             
+  text-align: center;
+  padding: 1.5rem;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0.5rem;
+}
+section p {
+  width: 600px;
+}
