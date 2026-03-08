@@ -20,21 +20,21 @@
   font-weight: 700;
   font-size: 20px;
 }
-nav {
+header nav {
   display: flex;
   background-color: var(--secondary-background-color);
   justify-content: space-around;
   padding: 10px;
   align-items: center;
 }
-nav a {
+header nav a {
   color: var(--secondary-text-color);
   text-decoration: none;
   font-family: var(--font);
   font-size: 15px;
   font-weight: 700;
 }
-nav a:hover {
+header nav a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -84,7 +84,6 @@ h1 {
 .card-items1 {
   display: grid;
   gap: 20px;
-  
   line-height: 25px;
 }
 .card-items1 h2 {
@@ -101,7 +100,7 @@ figcaption {
 img {
   width: 100%;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 li {
   margin: 0 30px;
