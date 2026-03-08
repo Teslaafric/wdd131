@@ -15,26 +15,28 @@
   text-align: center;
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  font-family: var(--font);
   padding: 20px;
   font-weight: 700;
   font-size: 20px;
 }
-header nav {
+header {
+  font-family: var(--font);
+}
+nav {
   display: flex;
   background-color: var(--secondary-background-color);
   justify-content: space-around;
   padding: 10px;
   align-items: center;
 }
-header nav a {
+nav a {
   color: var(--secondary-text-color);
   text-decoration: none;
   font-family: var(--font);
   font-size: 15px;
   font-weight: 700;
 }
-header nav a:hover {
+nav a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
