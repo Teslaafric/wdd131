@@ -1,0 +1,26 @@
+@media screen and (min-width: 800px) {
+  #menu-js {
+    display: none;
+  }
+  .nav-js {
+    display: block;
+  }
+  .nav-js ul{
+    flex-direction: row;
+    gap: 40px;
+  }
+  header {
+    align-items: center;
+  }
+  .desktop-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  figure {
+    width: 100%;
+    max-width: none;
+  }
+  
+
+}
