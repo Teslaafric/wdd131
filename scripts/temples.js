@@ -3,7 +3,7 @@ const today = new Date().getFullYear();
 yearElement.textContent = today;
 
 const modifiedElement = document.querySelector("#lastmodified-js");
-modifiedElement.textContent = document.lastModified; 
+modifiedElement.textContent = `Last Modified: ${document.lastModified}`; 
 
 
 const buttonElement = document.querySelector('#menu-js');
