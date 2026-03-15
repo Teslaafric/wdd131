@@ -48,6 +48,7 @@ header {
 }
 nav a:hover {
   color: black;
+  cursor: pointer;
 }
 main {
   max-width: 800px;
@@ -76,7 +77,9 @@ p {
   position: absolute;
   right: 20px;
   top: 10px;
-  
+}
+.menu:hover {
+  cursor: pointer;
 }
 .nav-js{
 	display: none;
