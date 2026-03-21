@@ -9,9 +9,6 @@
     flex-direction: row;
     gap: 40px;
   }
-  header {
-    align-items: center;
-  }
   .desktop-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
