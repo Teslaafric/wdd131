@@ -2,7 +2,7 @@
 :root {
   --header-color: green;
   --primary-color: #fff;
-  --secondary-color: #000;
+  --secondary-color: beige;
   --heading-font: "Roboto", sans-serif; 
   --text-font: "Baskervville", Arial;
 }
@@ -13,6 +13,7 @@
 }
 body {
   font-family: var(--text-font);
+  background-color: var(--header-color);
 }
 main {
   position: relative;
@@ -40,7 +41,6 @@ section {
   text-align: center;
   border-radius: 6px;
   font-size: 1rem;
-  border: 1px solid rgb(242, 236, 236);
 }
 footer {
   text-align: center;
@@ -72,8 +72,9 @@ img {
 }
 .data-container,
 .weather-container {
-  background-color: rgba(255, 255, 255, 0.85);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  margin: 5px 0;
 }
 .weather-container h2::after {
   content: "";
