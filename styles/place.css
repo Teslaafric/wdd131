@@ -26,11 +26,6 @@ header h1 {
   text-align: center;
   padding: 1rem;
 }
-picture img {
-  display: block;
-  width: 100%;
-}
-
 h2 {
   padding: 1rem;
   font-family: var(--heading-font);
@@ -52,6 +47,7 @@ footer {
 }
 img {
   width: 100%;
+  height: auto;
 }
 .data-container p,
 .weather-container p {
