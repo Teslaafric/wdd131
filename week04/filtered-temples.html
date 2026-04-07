@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Temple Album</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Responsive Temple album Enhencement - Solomon Obi">
+    <meta name="author" content="Solomon Obi">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+  </head>
+  <body>
+    <header> 
+      <p>Temple Album</p>
+      <button id="menu-js">☰</button>
+      <nav class="nav-js">
+        <a href="#" class="nav-link active" data-filter="home">
+          Home
+        </a>
+        <a href="#" class="nav-link"  data-filter="old">
+          Old
+        </a>
+        <a href="#" class="nav-link"  data-filter="new">
+          New
+        </a>
+          <a href="#" class="nav-link"  data-filter="large">
+            Large
+          </a>
+          <a href="#" class="nav-link"  data-filter="small">
+            Small
+          </a>
+      </nav>
+  </header>
+    <main>
+      <h1>
+        Latter Day Saints Temples
+      </h1>
+      <div class="temple-container-js">
+      </div>     
+    </main>
+    <footer>
+      <p>
+        &copy;<span id="currentyear-js"></span> /Solomon Obi / Abuja
+      </p>
+      <p>
+        <span id="lastmodified-js"></span>
+      </p>
+    </footer>
+  </body>
+</html>

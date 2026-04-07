@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color:#fff;
+  --secondary-color: #170F11;
+  --align-text: center;
+  --padding: 10px;
+  --font-size: 15px;
+  --border-radius: 10px;
+}
+body {
+  font-family: Roboto;
+}
+img {
+  width: 100%;
+}
+main{
+  width: 800px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: var(--align-text);
+  padding: var(--padding);
+
+}
+header {
+  display: flex;
+  justify-content: space-between;
+	align-items: center;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: var(--padding);
+  margin-bottom: 20px;
+  
+}
+header p {
+  font-weight: 700;
+  font-size: var(--font-size);
+}
+footer {
+  background-color: var(--secondary-color);
+  text-align: var(--align-text);
+  color: var(--primary-color);
+  padding: 5px;
+  font-size: var(--font-size);
+}
+footer p {
+  padding: 5px;
+}
+#menu-js {
+	background: none;
+	border: none;
+	font-size: 40px;
+	color: var(--primary-color);
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.temple-container-js {
+	max-width: 799px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 15px;
+	padding: var(--padding);
+
+}
+
+
+.temple-card {
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px #eee;
+  padding: var(--padding);
+  margin: 10px;
+  max-width: 300px;
+  text-align: var(--align-text);
+}
+
+.temple-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-top: 10px;
+}
+.nav-link.active {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+  padding: 5px 5px;
+}
+.nav-js {
+	display: none;
+	flex-direction: column;
+	gap: 10px;
+  font-size: var(--font-size);
+}
+.nav-js.open {
+	display: flex;
+}
+
+.nav-js a:hover {
+	color: var(--secondary-color);
+	background-color: var(--primary-color);
+	padding: 5px;
+}
+@media screen and (min-width: 800px) {
+   #menu-js {
+    display: none; 
+  }
+  .nav-js {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .temple-container-js {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  
+}

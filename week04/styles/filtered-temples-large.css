@@ -1,0 +1,15 @@
+@media screen and (min-width: 800px) {
+  #menu-js {
+    display: none;
+  }
+  .nav-js {
+    display: block;
+  }
+  .nav-js ul{
+    flex-direction: row;
+    gap: 40px;
+  }
+  
+  
+
+}
