@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Review Form</title>
+  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Product Review Form Page stanadard design -  Solomon Obi">
+  <meta name="author" content="Solomon Obi">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/form.css">
+  <script src="scripts/form.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Product Review Form</h1>
+  </header>
+  <main>
+    <form method="get" action="review.html">
+      <label for="product">Product Name</label>
+        <select id="product" name="product" required>
+          <option value="" disabled selected>Select a Product....</option>
+          <option></option>
+        </select>
+     
+      <fieldset class="star-container">
+        <legend>Overall Rating</legend>
+        <input type="radio" name="rating" id="rating1" value="1" required>
+        <label for="rating1">&star;</label>
+        <input type="radio" name="rating" id="rating2" value="2">
+        <label for="rating2">&star;&star;</label>
+        <input type="radio" name="rating" id="rating3" value="3">
+        <label for="rating3">&star;&star;&star;</label>
+        <input type="radio" name="rating" id="rating4" value="4">
+        <label for="rating4">&star;&star;&star;&star;</label>
+        <input type="radio" name="rating" id="rating5" value="5">
+        <label for="rating5">&star;&star;&star;&star;&star;</label>
+       
+      </fieldset>
+
+
+      <label for="date">Date of Installation</label>
+      <input type="date" name="installationDate" id="date" required>
+      <fieldset class="feature">
+        <legend>Which features did you find useful in the product?</legend>  
+        <div>(Check all that apply)</div>
+        <input type="checkbox" name="durability" value="durability" id="feature1">
+        <label for="feature1">Durability</label>
+        <input type="checkbox" name="ease" value="ease" id="feature2">
+        <label for="feature2">Ease of Use</label>
+        <input type="checkbox" name="affordability" value="affordability" id="feature3">
+        <label for="feature3">Affordability</label>
+        <input type="checkbox" name="performance" value="performance" id="feature4">
+        <label for="feature4">Performance</label>
+       
+      </fieldset>
+
+      <label for="review">Written Review (Optional)</label>
+      <textarea id="review" name="review"></textarea>
+
+      <label for="username">User Name (Optional)</label>
+      <input type="text" id="username" name="username">
+
+      <input type="submit" value="Post Review">
+    </form>
+  </main>
+  <footer>
+    <p>©️<span id="year-js"></span> 🐧 Solomon Obi 🐧 Nigeria</p>
+    <span id="lastmodified-js"></span>
+  </footer>
+</body>
+</html>

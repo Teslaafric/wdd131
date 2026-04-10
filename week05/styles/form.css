@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', Arial;
+  background-color: #e6e6e6;
+  color: #000;
+}
+header {
+  background-color: #4b003b;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+header h1 {
+  font-size: 2rem;
+}
+main {
+  max-width: 650px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #bfb8be;
+  border-radius: 8px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.star-container label {
+  align-items: center;
+  gap: 8px; 
+}
+
+fieldset input[type="radio"] {
+  width: auto;
+  margin: 8px;
+  cursor: pointer;
+}
+fieldset input[type="checkbox"] {
+  width: auto;
+  display: block;
+  margin-top: 10px;
+  
+}
+label {
+  font-weight: bold;
+  padding-top: 10px;
+}
+.feature label {
+  display: flex;
+  gap: 10px;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  max-width: 400px;
+}
+
+/* Fieldset */
+fieldset {
+  border: none;
+  margin-top: 10px;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+fieldset div {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #e6e6e6;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+input[type="submit"]:hover {
+  background-color: #d4d4d4;
+}
+footer {
+  background-color: #4b003b;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
